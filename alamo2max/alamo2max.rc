@@ -1,0 +1,204 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_PROGRESS DIALOGEX 0, 0, 332, 141
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_CAPTION
+CAPTION "Importing..."
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "Continuing in: %d seconds",IDC_CLOSING,242,131,86,8,NOT WS_VISIBLE
+    CONTROL         "",IDC_PROGRESS1,"msctls_progress32",0x0,6,115,322,12
+    LTEXT           "Importing model...",IDC_CAPTION,6,105,313,8
+    CONTROL         101,IDC_STATIC,"Static",SS_BITMAP,0,0,332,103
+END
+
+IDD_ALAMO_DAZZLE_DIALOG DIALOGEX 0, 0, 107, 209, 0
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg"
+{
+    LTEXT   "Radius:", IDC_STATIC, 9, 8, 28, 10
+    CONTROL "", IDC_DAZZLE_RADIUS_EDIT, "CustEdit", WS_TABSTOP, 46, 8, 33, 10
+    CONTROL "", IDC_DAZZLE_RADIUS_SPIN, "SpinnerControl", 0x0, 82, 8, 7, 10
+    LTEXT   "Color:", IDC_STATIC, 9, 22, 28, 10
+    CONTROL "", IDC_DAZZLE_COLOR, "ColorSwatch", WS_TABSTOP, 46, 22, 33, 10
+    LTEXT   "Texture:", IDC_STATIC, 7, 140, 28, 10
+    CONTROL "", IDC_DAZZLE_TEXTURE_EDIT, "CustEdit", WS_TABSTOP, 7, 152, 93, 13
+    LTEXT   "SlotX:", IDC_STATIC, 9, 36, 28, 10
+    CONTROL "", IDC_DAZZLE_SLOTX_EDIT, "CustEdit", WS_TABSTOP, 46, 36, 33, 10
+    CONTROL "", IDC_DAZZLE_SLOTX_SPIN, "SpinnerControl", 0x0, 82, 36, 7, 10
+    LTEXT   "SlotY:", IDC_STATIC, 9, 50, 28, 10
+    CONTROL "", IDC_DAZZLE_SLOTY_EDIT, "CustEdit", WS_TABSTOP, 46, 50, 33, 10
+    CONTROL "", IDC_DAZZLE_SLOTY_SPIN, "SpinnerControl", 0x0, 82, 50, 7, 10
+    LTEXT   "NumSlots:", IDC_STATIC, 9, 64, 28, 10
+    CONTROL "", IDC_DAZZLE_NUMSLOTS_EDIT, "CustEdit", WS_TABSTOP, 46, 64, 33, 10
+    CONTROL "", IDC_DAZZLE_NUMSLOTS_SPIN, "SpinnerControl", 0x0, 82, 64, 7, 10
+    LTEXT   "Freq:", IDC_STATIC, 9, 78, 28, 10
+    CONTROL "", IDC_DAZZLE_FREQ_EDIT, "CustEdit", WS_TABSTOP, 46, 78, 33, 10
+    CONTROL "", IDC_DAZZLE_FREQ_SPIN, "SpinnerControl", 0x0, 82, 78, 7, 10
+    LTEXT   "Phase:", IDC_STATIC, 9, 92, 28, 10
+    CONTROL "", IDC_DAZZLE_PHASE_EDIT, "CustEdit", WS_TABSTOP, 46, 92, 33, 10
+    CONTROL "", IDC_DAZZLE_PHASE_SPIN, "SpinnerControl", 0x0, 82, 92, 7, 10
+    CONTROL "", IDC_DAZZLE_NIGHT_BUTTON, "CustButton", WS_TABSTOP, 22, 125, 64, 10
+    CONTROL "", IDC_DAZZLE_TEXTUREPICK_BUTTON, "CustButton", WS_TABSTOP, 42, 140, 48, 10
+    LTEXT   "Bias:", IDC_STATIC, 10, 107, 28, 10
+    CONTROL "", IDC_DAZZLE_BIAS_EDIT, "CustEdit", WS_TABSTOP, 46, 107, 33, 10
+    CONTROL "", IDC_DAZZLE_BIAS_SPIN, "SpinnerControl", 0x0, 82, 107, 7, 10
+}
+
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_CREDIT              BITMAP                  "credit.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ALAMO_DAZZLE_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 87
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Dutch (Netherlands) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_NLD)
+#ifdef _WIN32
+LANGUAGE LANG_DUTCH, SUBLANG_DUTCH
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,0
+ PRODUCTVERSION 1,0,0,0
+ FILEFLAGSMASK 0x17L
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x0L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "000904b0"
+        BEGIN
+            VALUE "Comments", "For 3D Studio Max 8"
+            VALUE "CompanyName", "Mike Lankamp"
+            VALUE "FileDescription", "Alamo Importer"
+            VALUE "FileVersion", "1, 0, 0, 0"
+            VALUE "InternalName", "alamo2max"
+            VALUE "LegalCopyright", "Copyright (C) 2007"
+            VALUE "OriginalFilename", "alamo2max.dll"
+            VALUE "ProductName", "Alamo Importer"
+            VALUE "ProductVersion", "1, 0, 0, 0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x9, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ALAMO_DAZZLE        "Alamo Dazzle"
+    IDS_ALAMO_DAZZLE_CLASS  "Alamo Dazzle"
+END
+
+#endif    // Dutch (Netherlands) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
